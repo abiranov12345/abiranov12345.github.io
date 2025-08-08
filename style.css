@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    font-family: "Montserrat", sans-serif;
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 100px;
+    background-color:#404040;
+    position:fixed;
+    top:0;
+    left:0;
+    width:95%;
+}
+nav{
+   display:flex;
+    justify-content:space-between;
+    align-items:center; 
+    gap: 150px;
+}
+a{
+    text-decoration:none;
+    color:white;
+    font-size:20px;
+    font-weight:700px;
+}
+.title{
+     display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    width:20%;
+    gap:40px;
+    margin-bottom:40px;
+    font-size:60px;
+}
+.table{
+    background-color:black;
+    padding:30px;
+    display:flex;
+    justify-content:space-around;
+    align-items:flex-start;
+    color:white;
+    font-size: 30px;
+    gap:40px;
+    border-radius:20px;
+    margin:100px 0;
+    
+}
+.table>div{
+display:flex;
+flex-direction:column;
+gap: 50px;
+justify-content:space-betweeen;
+align-items:center;
+text-align:center;
+}
+main{
+    padding:20px 100px;
+    margin-top:200px;
+}
+main>*{
+    margin-bottom:40px;
+}
+.live__item{
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    gap: 45px;
+    font-size:25px;
+    margin:100px 0;
+}
+
+
+.novosti{
+    display:flex;
+    justify-content:flex-start;
+    align-items:flex-start;
+    gap: 25px;
+    font-size:25px;
+    border-radius: 20px;
+    padding-left: 40px;
+    
+}
+.news{
+    padding:50px;
+    background-color:#D9D9D9;
+    border-radius: 20px;
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items:flex-start;
+    gap:100px;
+    margin:100px 0;
+}
+.footballist{
+    padding:50px;
+    background-color:#D9D9D9;
+    border-radius: 20px;
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items:flex-start;
+    gap:100px;
+    margin:100px 0;
+}
+footer{
+    background-color:black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 100px;
+}
+.table-name>p{
+display:flex;
+justify-content:flex-start;
+align-items:center;
+gap:25px;
+}
+.table-title{
+    font-size:40px;
+}
+h2{
+    font-size:60px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Comfortaa", sans-serif;
+}
+.footballist p{
+    width:50%;
+}
